@@ -1,0 +1,102 @@
+body {
+  background: #F2EBD5;
+}
+
+.navbar .dd_menu {
+  background: #b0d9ba !important;
+}
+
+.container {
+  padding: 3rem;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  padding: 2rem;
+  text-align: center;
+  font-family: monarcha, serif;
+  color: #025939;
+}
+
+.project-header p {
+  font-family: monarcha, serif;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* .row {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto;
+} */
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+.thumbnail {
+  border: 2.5px double #025939;
+  border-radius: 5%;
+  transform: translateY(5px);
+  margin: 0.5%;
+  /* background-color: black; */
+}
+
+.img-container {
+  width: 400px;
+  height: 400px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  padding: 15px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: rgba(2, 64, 46, 0.8);
+}
+
+.caption {
+  font-size: 2rem;
+  font-family: monarcha, serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.img-container:hover .overlay {
+  opacity: 1;
+  border-radius: 5%;
+}

@@ -1,0 +1,83 @@
+body {
+  background: #F2EBD5;
+}
+
+.navbar .dd_menu li {
+  background: #b0d9ba !important;
+}
+
+.container {
+  padding: 3rem;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  padding: 2rem;
+  text-align: left;
+  font-family: monarcha, serif;
+  color: #025939;
+}
+
+.project-content {
+  margin-top: -5%;
+}
+
+.project-header p {
+  text-align: left;
+  font-family: monarcha, serif;
+  font-size: 20px;
+  padding-left: 2rem;
+}
+
+.part {
+  margin: 5rem 4rem;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 90%;
+}
+
+.thumbnail {
+  width: 350px;
+  height: 350px;
+  border: 4px double #025939;
+  border-radius: 5%;
+}
+
+.fashion {
+  width: 50%;
+  height: 50%;
+}
+
+.treasure {
+  height: 50%;
+  width: 50%;
+}
+
+.thumbnail img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5%;
+}
+
+.part-description {
+  /* border: 2px solid black; */
+  flex: 1;
+  padding: 2rem;
+}
+
+.part-description h2 {
+  font-family: monarcha, serif;
+}
+
+.part-description p {
+  margin-top: 2%;
+}
